@@ -1,0 +1,446 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background: #D8E5EE;
+}
+
+.canvasFWcon{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+	overflow: hidden !important;
+	user-select: none;
+}
+
+#fireworksCanvas{
+	 display: block;
+	 position: relative;
+	float: left;
+	width: 195% !important;
+	height: 120%;
+}
+
+.paraCon{
+	position: relative;
+	width: 100%;
+	float: left;
+  	top: 0;
+  	left: 0;
+  	display: flex;
+  	justify-content: center;
+  	height: auto;
+  	cursor: pointer;
+}
+
+.scrSpaceCol1, .scrSpaceCol2, .scrSpaceCol3{
+	position: relative;
+	top: 2vh;
+	left: 0;
+	width: 33.33%;
+	float: left;
+	align-content: center;	
+}
+
+/* BN banner start */
+.qualSliderBN{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 73.3% !important;
+    height: 550px;
+    border: #fff 3px solid;
+    border-radius: 10px;
+    z-index: 3;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background: rgba( 255, 255, 255, 0.01);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+	overflow: hidden !important;
+} 
+
+.qualSlideBN{
+	width: 550px;
+	height: 100%;
+	top: 0;
+	left: 23px;/* change left position to keep it centered across mobile */
+	cursor: pointer;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: all .5s;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.qualWrapperBN{
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+  }
+
+.mobMRECBNbanner{
+	position: absolute;
+	width: 450px;
+	height: 450px;
+	align-content: center;
+	margin: 50px 0 0 50px;
+	box-shadow: 1px 1px 10px 0 rgba(0, 0, 77, 0.9);
+}  
+
+.ConCardBN{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+.cityCon{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+  
+@media screen and (max-width: 1920px){
+
+	.NavThird1{
+		width: 40%;
+	}
+	
+	.NavThird2{
+		width: 20%;
+	}
+	
+	.NavThird3{
+		width: 40%;
+	}
+	
+	.mastheadCon{
+		top: 0;
+	}
+	
+	.titleMast{
+		margin-top: 14vh !important;
+	}
+	
+	#contentEmail{
+		height: 5430px !important;
+	}
+	
+	.logoFoot{
+		width: 100%;
+		margin: .01% 0 0 1% !important;
+		left: 0;
+	}	
+	
+	/* qual slider start */	
+	.qualSlider{
+		width: 317px;
+		height: 155px;
+	}
+	
+	.qualSlide{
+		top: 0;
+	}
+		
+	.qualConCard{
+		top: 4px;
+		left: 34.5px;
+		width: 250px;
+		height: 155px;
+	}
+	/* qual slider end */
+	
+	.qualSliderequitise{
+	  width: 100% !important;
+	}
+	
+	#qualSliderBN{
+		width: 100% !important;
+	}
+	}
+	
+	@media screen and (max-width: 1440px){
+	
+	.scrSpaceCol1, .scrSpaceCol3{
+		display: none;
+	}
+		
+	.scrSpaceCol2{
+		top: 25px;
+		width: 100%;
+	}
+	
+	.titleMast{
+		margin-top: 5% !important;
+		font-size: 2em !important;
+	}
+	
+	.mastheadCon1{
+		display: none;
+	}
+	
+	.mastheadCon2{
+		width: 100%;
+	}
+	
+	.paraConMQ{
+		padding-top: 15vh !important;
+	}
+	
+	.logoFoot{
+		margin: .3% 0 0 0 !important;
+		height: 36px;
+	}
+	
+	#contentEmail{
+		height: 5510px !important;
+	}
+	
+	.qualConHLbottom, .cvConHLbottom{
+		visibility: hidden;
+	}
+	
+	/* qual slider start */
+	.qualSlider{
+		width: 295px;
+		height: 116px;
+	}	
+			
+	.qualSlide{
+		top: 3px;
+	}
+		
+	.qualConCard{
+		top: 2px;
+		left: 57.5px;
+		width: 180px;
+		height: auto;
+	}
+	/* qual slider end */
+	
+	.qualSliderequitise, #qualSliderBN{
+		width: 50% !important;
+	}
+	
+	.qualSlideequitise{
+		left: 75px;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 75px !important;
+	}
+	}
+	
+	@media screen and (max-width: 1366px){
+	
+	.titleMast{
+	   top: 7vh;
+	   font-size: 1.8em !important;
+	}
+		
+	.paraConMQ{
+		padding-top: 12vh !important;    
+	}
+	
+	.navFooter{
+		display: none;
+	}
+	
+	.spaceDivMQ{
+		height: 20px;
+	}
+	
+	.spaceDiv{
+		display: none;
+	}
+	
+	.qualSliderequitise, #qualSliderBN{
+		width: 45%;
+	}
+	
+	.qualSlideequitise{
+		left: 56.5px;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 56.5px !important;
+	}
+	
+	#contentEmail{
+		height: 6700px !important;
+	}
+	}	
+	
+	@media screen and (max-width: 1180px){
+	
+	.qualSlideequitise{
+		left: 10px;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 10px !important;
+	}
+	}
+	
+	@media screen and (max-width: 1080px){
+	
+	.NavThird1, .NavThird3{
+		width: 35%;
+	}
+	
+	.NavThird2{
+		width: 30%;
+	}
+	
+	#contentEmail{
+		height: 6630px;
+	}
+	
+	.qualSliderequitise, #qualSliderBN{
+		  width: 85% !important;
+	}
+	
+	.qualSlideequitise{
+		left: 125px !important;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 125px !important;
+	}
+	
+	#contentEmail{
+		height: 6150px;
+	}
+	
+	.mobMREC, .mobMRECeGot, .mobMRECBNbanner{
+		margin: 50px 0 0 35px;
+	}
+	}
+	
+	@media  screen and (max-width: 980px){
+	
+	.heading3980{
+		font-size: 3.5em;
+	}
+	
+	.para980{
+		font-size: 3em;
+	}
+	
+	h4{
+		font-size: 2.5em;
+		font-weight: 700;
+	}
+		
+	p{
+		font-size: 2em;
+	}
+		
+	#contentEmail{
+		height: 11045px !important;
+	}
+		
+	.qualSlideequitise{
+		left: 124.5px !important;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 124.5px !important;
+	}
+	}
+	
+	@media screen and (max-width: 820px){
+	
+	.titleMast{
+		top: 2.5vh;
+		font-size: 1.9em !important;
+	}
+		
+	.paraConMQ{
+		padding-top: 5.5vh !important;    
+	}
+		
+	.qualSlideequitise{
+		  left: 56.5px !important;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 56.5px !important;
+	}
+		  
+	.mobMREC, .mobMRECeGot, .mobMRECBNbanner{
+		  margin: 50px 0 0 50px;
+	}
+		  
+	#contentEmail{
+		height: 10945px !important;
+	}   
+	}  
+	
+	@media screen and (max-width: 720px){
+	  /* METCON - contains metrics don't lie stats - start */
+	.MetricCon{
+		position: relative;
+		width: auto;
+		height: 205px;
+		margin: auto;
+		float: left;
+	}
+	
+	.MetricHead{
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		float: left;
+		border-radius: 20px 20px 0 0;
+	}
+	}
+	
+	@media  screen and (max-width: 574px){
+	
+	body{
+		width: 574px !important;
+	}
+
+	.paraCon{
+		width: 574px !important;
+		padding: 15px 20px !important;
+	}
+
+	.qualSliderequitise, #qualSliderBN{
+		  width: 100% !important;
+	}
+	
+	.qualSlideequitise{
+		left: 0 !important;/* change left position to keep it centered across mobile */
+	}
+	
+	.qualSlideBN{
+		left: 0 !important;/* change left position to keep it centered across mobile */
+	}
+
+	.mobMREC, .mobMRECeGot, .mobMRECBNbanner, .mobMRECBMB{
+		margin: 50px 0 0 40px;
+  }
+
+	}
